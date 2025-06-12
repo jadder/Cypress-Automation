@@ -1,0 +1,20 @@
+{
+  "name": "cypress-automation",
+  "version": "1.0.0",
+  "description": "Automate QAdemo websites",
+  "homepage": "https://github.com/jadder/Cypress-Automation#readme",
+  "bugs": {
+    "url": "https://github.com/jadder/Cypress-Automation/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jadder/Cypress-Automation.git"
+  },
+  "license": "ISC",
+  "author": "Jadder Moya",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "runner"
+  }
+}
