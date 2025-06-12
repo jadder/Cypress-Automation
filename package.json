@@ -1,20 +1,22 @@
 {
-  "name": "cypress-automation",
+  "name": "cypress",
   "version": "1.0.0",
-  "description": "Automate QAdemo websites",
-  "homepage": "https://github.com/jadder/Cypress-Automation#readme",
-  "bugs": {
-    "url": "https://github.com/jadder/Cypress-Automation/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jadder/Cypress-Automation.git"
-  },
+  "description": "Automation for QADemo Websites",
+  "keywords": [
+    "cypress",
+    "javascript",
+    "typescript",
+    "testing"
+  ],
   "license": "ISC",
   "author": "Jadder Moya",
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "test": "runner"
+    "test": "cypress open --e2e --browser chrome"
+  },
+  "devDependencies": {
+    "cypress": "^14.4.1",
+    "typescript": "^5.8.3"
   }
 }
